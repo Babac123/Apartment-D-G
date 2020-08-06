@@ -1,0 +1,299 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a.link-primary:link, a.link-primary:visited {
+    color: black;
+    text-decoration: none;
+}
+a.link-primary:hover, a.link-primary:active, a.link-primary:focus {
+    color: #0198E1;
+}
+
+a.link-secondary:link, a.link-secondary:visited {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+a.link-secondary:hover, a.link-secondary:active, a.link-primary:focus {
+    color: #0198E1;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: lighter;
+    z-index: 10;
+    background-color: #F0F0F0;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/header.jpg");
+    background-size: cover;
+    opacity: 0.9;
+
+
+
+    h1{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        color: white;
+
+        @media screen and (max-width: 425px) {
+            text-align: center;
+        }
+    }
+    h4{
+        color: white;
+    }
+
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+
+
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;
+    text-decoration: none;
+
+    @media screen and (max-width: 425px) {
+        padding: 0;
+
+    }
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    @media screen and (max-width: 425px) {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+
+section {
+    padding: 40px 0;
+    width: 100%;
+    transition: 2s;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+
+}
+
+.portfolioHr{
+    width: 25%;
+}
+
+.portfolioTitle{
+    @media screen and (max-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+.contactTitle{
+    @media screen and (max-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+.contactText{
+    @media screen and (max-width: 768px) {
+        width: 50%;
+        text-align: center;
+    }
+}
+
+.contactHr{
+    width: 75%;
+}
+
+section.primary h2{
+    color: #2c3e50;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+    display: block;
+
+}
+
+.thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.thumbnail{
+    &:hover{
+        opacity: 0.7;
+        transition: 0.2s;
+    }
+}
+
+
+footer{
+    background: #0099CC;
+    color:white;
+    position: relative;
+
+    .links{
+        ul {list-style-type: none;}
+        li a{
+            color: white;
+            transition: color .2s;
+            &:hover{
+                text-decoration:none;
+                color:#4180CB;
+            }
+        }
+    }
+    .about-company{
+        i{font-size: 25px;}
+        a{
+            color:white;
+            transition: color .2s;
+            &:hover{color:#4180CB}
+        }
+    }
+    .location{
+        i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);}
+}
+
+ul.social-media-links{
+    padding-left: 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-size{
+    font-size: 30px;
+}
+
+.footer-hr {
+    margin: 0 auto;
+    width: 40%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+#map {
+    background: #ffffff;
+    height: 650px;
+
+    @media screen and (max-width: 768px) {
+        height: 400px;
+    }
+}
+
+.col-lg-3{
+    position: static;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0099CC ;
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4180CB;
+}
+
+
+
+.fa-map-marker-alt{
+
+    @media screen and (max-width: 990px) {
+        padding-top: 50px;
+    }
+}
+
