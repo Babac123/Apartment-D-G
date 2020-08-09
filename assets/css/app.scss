@@ -252,15 +252,6 @@ ul.social-media-links{
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
-#map {
-    background: #ffffff;
-    height: 650px;
-
-    @media screen and (max-width: 768px) {
-        height: 400px;
-    }
-}
-
 .col-lg-3{
     position: static;
 }
@@ -296,4 +287,3 @@ ul.social-media-links{
         padding-top: 50px;
     }
 }
-

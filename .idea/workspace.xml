@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33f0f857-c6aa-4ab6-b583-88fcd8e97233" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +158,7 @@
       <workItem from="1596635158141" duration="22319000" />
       <workItem from="1596704551815" duration="16534000" />
       <workItem from="1596810648259" duration="6647000" />
+      <workItem from="1596890560610" duration="890000" />
     </task>
     <servers />
   </component>
