@@ -27,6 +27,16 @@ a.link-secondary:hover, a.link-secondary:active, a.link-primary:focus {
     color: #0198E1;
 }
 
+a.link-social-media:link, a.link-social-media:visited {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+a.link-social-media:hover, a.link-social-media:active, a.link-primary:focus {
+    color: black;
+}
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: lighter;
@@ -53,9 +63,13 @@ header {
         height: 100%;
         width: 100%;
         color: white;
+        font-size: 90px;
+        opacity: 0.8;
+        letter-spacing: 2px;
 
-        @media screen and (max-width: 425px) {
+        @media screen and (max-width: 880px) {
             text-align: center;
+            font-size: 40px
         }
     }
     h4{
@@ -75,6 +89,7 @@ header {
 
 nav {
     position: fixed;
+    top: 0;
     width: 100%;
     line-height: 60px;
 
@@ -164,7 +179,6 @@ section h2 {
 
 .contactText{
     @media screen and (max-width: 768px) {
-        width: 50%;
         text-align: center;
     }
 }
@@ -187,18 +201,13 @@ section.primary h2{
 
 }
 
-.thumb{
-    margin-top: 15px;
-    margin-bottom: 15px;
-
+.thumbnail:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+    color: green;
 }
 
-.thumbnail{
-    &:hover{
-        opacity: 0.7;
-        transition: 0.2s;
-    }
-}
+
 
 
 footer{
@@ -287,3 +296,5 @@ ul.social-media-links{
         padding-top: 50px;
     }
 }
+
+

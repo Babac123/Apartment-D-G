@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33f0f857-c6aa-4ab6-b583-88fcd8e97233" name="Default Changelist" comment="" />
+    <list default="true" id="33f0f857-c6aa-4ab6-b583-88fcd8e97233" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Apartman.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Apartman.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bodyImage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/contact.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/portfolio.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/portfolio.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,10 +150,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP/quantum-engineering" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../agava" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP\Apartman\assets\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Apartman\assets\css" />
     </key>
@@ -156,7 +174,8 @@
       <workItem from="1596704551815" duration="16534000" />
       <workItem from="1596810648259" duration="6647000" />
       <workItem from="1596890560610" duration="890000" />
-      <workItem from="1596962203666" duration="496000" />
+      <workItem from="1596962203666" duration="1095000" />
+      <workItem from="1598435522346" duration="10138000" />
     </task>
     <servers />
   </component>
@@ -164,10 +183,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="838" y="399" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596663931806">
+    <state x="838" y="399" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596962666217">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="838" y="399" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2194.1194@0.0.2194.1194" timestamp="1596663931806" />
+    <state x="838" y="399" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2194.1194@0.0.2194.1194" timestamp="1596962666217" />
     <state x="799" y="258" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596637752314">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -180,9 +199,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="828" y="352" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1596637575290" />
-    <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1596710772649">
-      <screen x="0" y="0" width="2194" height="1194" />
+    <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1598440039541">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="768" y="307" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598440039541" />
     <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1596710772649" />
     <state width="2151" height="333" key="GridCell.Tab.0.bottom" timestamp="1596668357227">
       <screen x="0" y="0" width="2194" height="1194" />
@@ -204,6 +224,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="892" y="320" key="NewPhpClassDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1596637492585" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1598437954230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598437954230" />
     <state x="705" y="377" width="662" height="534" key="find.popup" timestamp="1596816670298">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
